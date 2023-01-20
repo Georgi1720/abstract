@@ -11,6 +11,7 @@ public class Wife extends Human {
         super(gender, age, name);
     }
 
+
     @Override
     public String toString() {
         return "Человек{" +
@@ -33,7 +34,7 @@ public class Wife extends Human {
 
     public void getMaritalStatus() {
         if (Objects.equals(maritalStatus, "married")) {
-            System.out.println("Замужем за " + husband);
+            System.out.println("Замужем ");
         } else System.out.println("Не замужем");
 
     }
@@ -42,6 +43,8 @@ public class Wife extends Human {
         if (Objects.equals(maritalStatus, "married")) {
             children.add(kid);
         }
+        //kid.mother = Wife.this;
+        //kid.Father = husband;
 
     }
 

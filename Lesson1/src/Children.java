@@ -1,4 +1,6 @@
 class Children extends Human {
+    protected Wife mother;
+    protected Husband Father;
 
 
     public Children(String gender, int age, String name) {
@@ -7,4 +9,5 @@ class Children extends Human {
         this.setAge(age);
         this.setName(name);
     }
+
 }

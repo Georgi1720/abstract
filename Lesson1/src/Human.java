@@ -38,10 +38,6 @@ abstract class Human {
         this.name = name;
     }
 
-    public void setHusband(Husband spouse) {
-        this.maritalStatus = "married";
-        spouse.maritalStatus = "married";
-    }
 
 
     @Override

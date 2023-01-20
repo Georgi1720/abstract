@@ -8,10 +8,12 @@ public class Main {
         person2.getSpouse();
         person1.getSpouse();
         person2.getMaritalStatus();
+        person1.getMaritalStatus();
         person2.setChildren(new Children("w", 0, "pole"));
         person2.setChildren(new Children("m", 1, "pol"));
         person2.setChildren(new Children("w", 3, "viktor"));
         System.out.println(Arrays.toString(person1.getChildren()));
         System.out.println(Arrays.toString(person2.getChildren()));
+
     }
 }
