@@ -1,4 +1,4 @@
-abstract class Human {
+ abstract class Human {
     private String gender;
     private int age;
     private String name;
