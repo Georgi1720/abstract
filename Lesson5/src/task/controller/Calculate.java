@@ -8,9 +8,7 @@ import task.view.Menu;
 
 import java.io.IOException;
 
-/**
- * Class linking model and view
- */
+
 public class Calculate {
     public Solve solve = new SolveImpl();
 

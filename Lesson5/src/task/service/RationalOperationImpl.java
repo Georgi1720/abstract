@@ -2,9 +2,7 @@ package task.service;
 
 import task.model.Example;
 
-/**
- * implementation of the Operation interface for rational numbers
- */
+
 public class RationalOperationImpl implements Operation<Number> {
     @Override
     public Number sum(Example<Number> example) {

@@ -1,14 +1,9 @@
 package task.config;
 
 import java.io.IOException;
-import java.util.logging.FileHandler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
+import java.util.logging.*;
 
-/**
- * Class for logger configuration
- */
+
 public class LoggerConfig {
     public static void config() throws IOException {
         FileHandler fileHandler = new FileHandler("src/task/log.log", true);

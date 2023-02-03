@@ -2,11 +2,7 @@ package task.model;
 
 import task.model.enums.OperationType;
 
-/**
- * Abstract class for mathematical expressions
- *
- * @param <T> extends Number
- */
+
 public abstract class Example<T> {
     private T variableA;
     private T variableB;

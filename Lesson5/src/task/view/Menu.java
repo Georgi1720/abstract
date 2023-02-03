@@ -2,9 +2,7 @@ package task.view;
 
 import java.util.Scanner;
 
-/**
- * The class contains methods for displaying to the console
- */
+
 public class Menu {
     public String showMenu() {
         while (true) {

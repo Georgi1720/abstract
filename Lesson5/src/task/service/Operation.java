@@ -2,11 +2,7 @@ package task.service;
 
 import task.model.Example;
 
-/**
- * Interface of mathematical operations
- *
- * @param <T> extends Number
- */
+
 public interface Operation<T> {
     T sum(Example<T> example);
 

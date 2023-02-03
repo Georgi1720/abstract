@@ -6,9 +6,7 @@ import task.model.enums.OperationType;
 
 import java.util.logging.Logger;
 
-/**
- * implementation of the Solve interface for rational numbers
- */
+
 public class SolveImpl implements Solve {
 
     Logger logger = Logger.getLogger(Calculate.class.getName());
