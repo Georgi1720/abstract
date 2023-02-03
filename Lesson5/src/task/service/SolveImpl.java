@@ -1,8 +1,8 @@
-package service;
+package task.service;
 
-import task1.controller.Calculate;
-import task1.model.RationalExample;
-import task1.model.enums.OperationType;
+import task.controller.Calculate;
+import task.model.RationalExample;
+import task.model.enums.OperationType;
 
 import java.util.logging.Logger;
 

@@ -1,7 +1,7 @@
-package service;
+package task.service;
 
-import task1.model.RationalExample;
-import task1.model.enums.OperationType;
+import task.model.RationalExample;
+import task.model.enums.OperationType;
 
 /**
  * Interface for actions with expressions

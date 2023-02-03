@@ -1,4 +1,4 @@
-package model.enums;
+package task.model.enums;
 
 /**
  * Mathematical operations

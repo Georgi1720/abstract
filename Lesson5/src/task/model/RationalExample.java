@@ -1,6 +1,6 @@
-package model;
+package task.model;
 
-import task1.model.enums.OperationType;
+import task.model.enums.OperationType;
 
 /**
  * Class for working with rational numbers

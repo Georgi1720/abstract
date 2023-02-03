@@ -1,6 +1,6 @@
-package service;
+package task.service;
 
-import task1.model.Example;
+import task.model.Example;
 
 /**
  * Interface of mathematical operations

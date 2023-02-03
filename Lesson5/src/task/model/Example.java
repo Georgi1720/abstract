@@ -1,6 +1,6 @@
-package model;
+package task.model;
 
-import task1.model.enums.OperationType;
+import task.model.enums.OperationType;
 
 /**
  * Abstract class for mathematical expressions

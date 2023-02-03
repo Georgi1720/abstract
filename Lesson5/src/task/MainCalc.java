@@ -1,4 +1,6 @@
-import task1.controller.Calculate;
+package task;
+
+import task.controller.Calculate;
 
 /**
  * Создать калькулятор для работы с рациональными числами, организовать меню, добавив в неё систему логирования.

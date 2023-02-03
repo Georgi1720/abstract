@@ -1,10 +1,10 @@
-package controller;
+package task.controller;
 
-import task1.config.LoggerConfig;
-import task1.model.RationalExample;
-import task1.service.Solve;
-import task1.service.SolveImpl;
-import task1.view.Menu;
+import task.config.LoggerConfig;
+import task.model.RationalExample;
+import task.service.Solve;
+import task.service.SolveImpl;
+import task.view.Menu;
 
 import java.io.IOException;
 
